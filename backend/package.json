@@ -7,5 +7,12 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "eventsource": "^3.0.2",
+    "express": "^4.21.2",
+    "node-fetch": "^2.7.0"
+  }
 }
