@@ -7,7 +7,7 @@ function App() {
   const [mess, setmess] = useState({ message: '' });
 
   const func = async () => {
-    const res = await axios.post('http://localhost:3000/run-flow', {
+    const res = await axios.post('https://prehackathonassignment.vercel.app/run-flow', {
       inputValue: select,
       inputType: 'chat',
       outputType: 'chat',
