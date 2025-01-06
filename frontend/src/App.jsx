@@ -7,7 +7,7 @@ function App() {
   const [mess, setmess] = useState({ message: '' });
 
   const func = async () => {
-    const res = await axios.post('https://prehackathonassignment.vercel.app/run-flow', {
+    const res = await axios.post('https://pre-hackathon-assignment.onrender.com/run-flow', {
       inputValue: select,
       inputType: 'chat',
       outputType: 'chat',
@@ -68,6 +68,8 @@ function App() {
             <button
               onClick={() => {
                 func().then((res) => {
+                  console.log(res.data);
+                  
                   setmess(res.data);
                 });
               }}
