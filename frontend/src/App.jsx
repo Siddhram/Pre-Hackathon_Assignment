@@ -68,7 +68,7 @@ function App() {
             <button
               onClick={() => {
                 func().then((res) => {
-                  console.log(res.data);
+                  // console.log(res.data);
                   
                   setmess(res.data);
                 });
