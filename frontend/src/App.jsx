@@ -43,7 +43,7 @@ function App() {
             className="mx-auto h-12 rounded-lg w-auto"
           />
           <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-            Accepts post types (e.g., carousel, reels, static images) as input.
+            Accepts post types (e.g., carousel, reels, static images) as input
           </h2>
          </div>
 
