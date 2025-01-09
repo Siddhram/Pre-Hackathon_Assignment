@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import axios from 'axios';
 import langflow from './assets/image.png'
-import logo from './assets/xd.png'
+import logo1 from './assets/xd.png'
 function App() {
   const [select, setselect] = useState('');
   const [mess, setmess] = useState({ message: '' });
@@ -38,7 +38,7 @@ function App() {
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
             alt="Your Company"
-            src={logo}
+            src={logo1}
 
             className="mx-auto h-12 rounded-lg w-auto"
           />
